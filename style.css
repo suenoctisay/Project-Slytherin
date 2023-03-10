@@ -1,0 +1,288 @@
+/* ===============================
+   -------------------------------
+   Color Palette:
+   -------------------------------
+   black: #07221F
+   white: #EBEBEB
+   tittle: #05201C
+   text|footer: #718785
+   the gradient color: #07221F, #203b37, #395550, #54706c, #708d88
+=============================== */
+
+/* General */
+html{
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient(to top, #07221F, #203b37, #395550, #54706c, #708d88);
+    color: #05201C;
+    font-family: 'Opens Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+}
+/* ========================================================================================== */
+
+/* Typography */
+p{
+    font-size: 15px;
+    color: #05201C;
+    margin: 0;
+}
+
+.phrase01 p { 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.phrase02 p { 
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.character p {
+    color: #718785;
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: #05201C;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+h1 strong{
+    color: #EBEBEB;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #EBEBEB;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.traits{
+    text-align: center;
+}
+/* ========================================================================================== */
+
+/* Header */
+#header{
+    background: url('img/bg_header.png');
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+header nav ul li {
+	display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+}
+
+header nav ul li:not(:first-child){
+    padding-left: 30px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid #05201C;
+}
+
+.img-header01{
+    width: 700px;
+    height: 250px;
+    position: absolute;
+    padding: 59px 150px;
+}
+
+#header .traits{
+    width: 700px;
+    height: 70px;
+    align-items: center;
+    position: absolute;
+    padding: 149px 150px;
+}
+
+.img-header02{
+    width: 1000px;
+    height: 132px;
+    position: absolute;
+    padding-top: 368px;   
+}
+
+nav{
+    height: 35px;
+    position: absolute;
+    padding-top: 435px;
+}
+/* ========================================================================================== */
+
+/* Common Room */
+#common-room{
+    width: 1000px;
+    height: 500px;
+    background-color: #EBEBEB;
+}
+
+.c-decoration{
+    background-color: #07221F;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.c-decoration-top, .c-decoration-bottom{
+    height: 90px;
+    width: 90px;
+}
+
+.c-decoration-top{
+    padding-left: 900px;
+}
+
+.c-decoration-bottom{
+    padding-left: 10px;
+}
+
+.c-decoration:not(:first-child){
+    margin-left: 15px;
+}
+
+.img-dc{
+    width: 300px;
+    height: 225px;
+}
+
+.cr{
+    display: flex;
+    padding: 21.3px 150px;
+}
+
+.cr-dorm{
+    margin-right: 50px;
+}
+
+.cr-common{
+    margin-left: 50px;
+}
+/* ========================================================================================== */
+
+/* Iconic Phrases */
+#iconic-phrases{
+    width: 1000px;
+    height: 350px;
+    background: url('img/bg_iconic.png');
+}
+
+.phrases{
+    background: url('img/bg_iconic02.png');
+    display: flex;
+    padding: 75px 100px;
+    justify-content: space-between;
+}
+
+.phrase01, .phrase02{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+/* ========================================================================================== */
+
+/* Characters */
+#characters {
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    background-color: #EBEBEB;
+}
+
+.characters{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.character{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.img-character{
+    width: 150px;
+    border-radius: 100px;
+}
+/* ========================================================================================== */
+
+/* MOtto */
+#motto{
+    width: 1000px;
+    height: 350px;
+    background: url('img/bg_motto.png');
+}
+
+.motto{
+    width: 800px;
+    height: 250px;
+    padding: 50px 100px;
+}
+
+.motto h1{
+    font-size: 70px;
+    background: url('img/bg_motto02.png');
+}
+
+/* ========================================================================================== */
+
+/* Footer */
+#footer{
+    width: 1000px;
+    height: 200px;
+    background-color: #718785;
+}
+
+#footer .traits{
+    padding: 21.8px 0;
+}
+
+.sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-sm{
+    width: 50px;
+    height: 50px;
+}
+
+.copyright{
+    padding: 10px 0;
+    padding-left: 10px;
+}
+/* ========================================================================================== */
